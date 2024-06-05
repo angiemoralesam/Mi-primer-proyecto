@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+   }
+
+.container{
+  width: auto;
+  height: auto;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; 
+}
+header{
+    background: rgb(69, 77, 83);
+    background-image: url(../img/img.jpg);
+    width: 1200px;
+    height: 85px;
+    text-align: center;
+}
+nav {
+    background: rgb(156, 158, 161);
+    width: 1200px;
+    height: 15px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
